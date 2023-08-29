@@ -59,3 +59,64 @@ header {
 }
 
 /* header section end  */
+
+/* feature section start  */
+
+.feature {
+    margin-top: 80px;
+}
+
+.feature .feature-info {
+    text-align: center;
+}
+
+.feature .feature-info h2 {
+    font-size: 40px;
+}
+
+.feature .feature-info p {
+    font-size: 18px;
+    color: #272727;
+    line-height: 1.6rem;
+    margin: 30px 0;
+}
+
+.feature .feature-image {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 15px;
+}
+
+.feature .feature-image .flower-box {
+    text-align: center;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    padding-top: 30px;
+    position: relative;
+}
+
+.feature .feature-image .flower-box img {
+    width: 314px;
+    height: 471px;
+}
+
+.feature .feature-image .first {
+    background-color: #FCEEF1;
+}
+
+.feature .feature-image .second {
+    background-color: rgb(217, 239, 241);
+}
+
+.feature .feature-image .third {
+    background-color: rgb(227, 235, 219);
+}
+
+.feature .feature-image .flower-box p {
+    font-weight: bold;
+    text-decoration: underline;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -35px;
+}
