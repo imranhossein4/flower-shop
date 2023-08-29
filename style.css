@@ -204,6 +204,48 @@ header {
 
 /* instagram section end  */
 
+/* about section style :start  */
+
+.about {
+    background-color: #FCEEF1;
+    margin-top: 80px;
+}
+
+.about-section {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 100px;
+}
+
+.about-section .about-top h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.about-section .about-top p {
+    font-size: 18px;
+    line-height: 1.6rem;
+    color: #272727;
+    margin: 40px 0;
+}
+
+.about-section .about-bottom {
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.about-section .about-bottom p {
+    font-size: 18px;
+    color: #272727;
+}
+
+.about-section .about-bottom strong {
+    font-size: 20px;
+}
+
 /* subcribe section style start  */
 
 .subcribe {
