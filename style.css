@@ -202,10 +202,45 @@ header {
     grid-template-columns: repeat(4, 1fr);
 }
 
+/* instagram section end  */
 
+/* subcribe section style start  */
 
+.subcribe {
+    text-align: center;
+    margin-top: 80px;
+    background-image: url('asset/images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    padding: 150px;
+}
 
+.subcribe h2 {
+    font-size: 40px;
+}
 
+.subcribe p {
+    font-size: 18px;
+    margin: 20px;
+}
+
+.subcribe .email {
+    padding: 12px 10px;
+    width: 37%;
+    border: none;
+    margin-right: 20px;
+}
+
+.subcribe .btn {
+    padding: 12px 24px;
+    background-color: #E55473;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* subcribe section end  */
 
 
 /* footer section style  */
